@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.apps.yecotec.fridgetracker.settings.SettingsActivity">
+    tools:context="co.hipstercoding.dev.papayapp.settings.SettingsActivity">
 
     <TextView
         android:id="@+id/notification_text_view"
@@ -21,11 +21,11 @@
 
     <fragment
         android:id="@+id/activity_settings"
-        android:name="com.apps.yecotec.fridgetracker.settings.SettingsFragment"
+        android:name="co.hipstercoding.dev.papayapp.settings.SettingsFragment"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/notification_text_view"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
-</android.support.constraint.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

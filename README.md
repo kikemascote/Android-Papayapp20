@@ -7,7 +7,7 @@ With Food Tracker you can manage your food by storage. The app notifies you when
 
 Download
 ---
-<a href="https://play.google.com/store/apps/details?id=com.apps.yecotec.fridgetracker">
+<a href="https://play.google.com/store/apps/details?id=papayapp">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" height="50px"/></a>
 
 Usage

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.apps.yecotec.fridgetracker">
+    package="co.hipstercoding.dev.papayapp">
 
     <uses-feature
         android:name="android.hardware.camera"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/CustomTheme">
         <activity
-            android:name=".MainActivity"
+            android:name="co.hipstercoding.dev.papayapp.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/CustomTheme">
 
@@ -23,7 +23,7 @@
                 android:value=".SearchableActivity" />
         </activity>
         <activity
-            android:name=".TourActivity"
+            android:name="co.hipstercoding.dev.papayapp.TourActivity"
             android:label="@string/about_us_app_title"
             android:theme="@style/CustomTheme">
             <intent-filter>
@@ -34,41 +34,41 @@
         </activity>
 
         <provider
-            android:name=".data.FridgeContentProvider"
-            android:authorities="com.apps.yecotec.fridgetracker"
+            android:name="co.hipstercoding.dev.papayapp.data.FridgeContentProvider"
+            android:authorities="com.apps.yecotec.papayapp"
             android:exported="true" />
 
         <activity
-            android:name=".settings.SettingsActivity"
+            android:name="co.hipstercoding.dev.papayapp.settings.SettingsActivity"
             android:label="@string/label_settings"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="co.hipstercoding.dev.papayapp.MainActivity"
             android:theme="@style/CustomTheme.ActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="co.hipstercoding.dev.papayapp.MainActivity" />
         </activity>
         <activity
-            android:name=".DetailActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="co.hipstercoding.dev.papayapp.DetailActivity"
+            android:parentActivityName="co.hipstercoding.dev.papayapp.MainActivity"
             android:theme="@style/CustomTheme.ActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="co.hipstercoding.dev.papayapp.MainActivity" />
         </activity>
         <activity
-            android:name=".SearchResultActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="co.hipstercoding.dev.papayapp.SearchResultActivity"
+            android:parentActivityName="co.hipstercoding.dev.papayapp.MainActivity"
             android:theme="@style/CustomTheme.ActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="co.hipstercoding.dev.papayapp.MainActivity" />
         </activity>
 
         <service
-            android:name=".services.NotificationService"
+            android:name="co.hipstercoding.dev.papayapp.services.NotificationService"
             android:exported="false" />
 
-        <receiver android:name=".FoodWidget">
+        <receiver android:name="co.hipstercoding.dev.papayapp.FoodWidget">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>
@@ -79,10 +79,10 @@
         </receiver>
 
         <service
-            android:name=".services.GridWidgetService"
+            android:name="co.hipstercoding.dev.papayapp.services.GridWidgetService"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
         <service
-            android:name=".services.WidgetService"
+            android:name="co.hipstercoding.dev.papayapp.services.WidgetService"
             android:exported="false"></service>
     </application>
 
