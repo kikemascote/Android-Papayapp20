@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "922511618056",
+    "firebase_url": "https://papayapp.firebaseio.com",
+    "project_id": "papayapp",
+    "storage_bucket": "papayapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922511618056:android:895221d59d300736",
+        "android_client_info": {
+          "package_name": "co.hipstercoding.dev.papayapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922511618056-o7srbhg92lp2p2e0afi51e02uu57sklq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "co.hipstercoding.dev.papayapp",
+            "certificate_hash": "833d2cc12b4bde6c85ea2c72c5d7cc0f07a14549"
+          }
+        },
+        {
+          "client_id": "922511618056-bvrr651nohd5vb09o2jcijjsvgm7i3ot.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_MZXwgRcMwNkUk4a-2uR7wQ-u70v9qgQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922511618056-bvrr651nohd5vb09o2jcijjsvgm7i3ot.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
